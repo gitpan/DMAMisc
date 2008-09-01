@@ -11,7 +11,7 @@ WriteMakefile(
     'ABSTRACT'  => 'Misc support classes for DMA projects',
     'AUTHOR'    => 'Dale Amon',
     'VERSION_FROM' => 'Version',
-    'PREREQ_PM' => {'Exporter' => 0, 'POSIX' => 0, 'DBI' => 0 },
+    'PREREQ_PM' => {'Exporter' => 0, 'POSIX' => 0, 'DBI' => 0, 'Fault::DebugPrinter' => 0, 'Fault::Errorhandler' => 0 },
     'dist'      => {'COMPRESS'  => 'gzip', 'SUFFIX'    => '.gz'},
     'clean'     => {FILES => "*/*/*~ *~ .#* */*/.#*"},
 );

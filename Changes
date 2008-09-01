@@ -1,6 +1,15 @@
+libdma-misc-perl (1.01-3) unstable; urgency=low
+
+  * Forced to increment version because CPAN does not reprocess
+    an upload of the same version. This version exists to force
+    reprocessing with the Makefile.PL changes.
+
+ -- Dale Amon <amon@vnl.com>  Mon, 01 Sep 2008 11:27:29 +0100
+
 libdma-misc-perl (1.01-2) unstable; urgency=low
 
   * Added dh_perl to rules and ${perl:Depends} to control file.
+  * Added dependencies to Makefile.PL
 
  -- Dale Amon <amon@vnl.com>  Thu, 21 Aug 2008 01:51:59 +0100
 

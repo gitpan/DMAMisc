@@ -3,8 +3,8 @@
 # Description:          A simple Finite State Machine.
 # Original Author:      Dale M. Amon
 # Revised by:           $Author: amon $ 
-# Date:                 $Date: 2008-08-15 21:47:52 $ 
-# Version:              $Revision: 1.6 $
+# Date:                 $Date: 2008-08-28 23:14:03 $ 
+# Version:              $Revision: 1.7 $
 # License:		LGPL 2.1, Perl Artistic or BSD
 #
 #=============================================================================
@@ -251,6 +251,9 @@ Dale Amon <amon@vnl.com>
 #                                CVS HISTORY
 #=============================================================================
 # $Log: FSM.pm,v $
+# Revision 1.7  2008-08-28 23:14:03  amon
+# perldoc section regularization.
+#
 # Revision 1.6  2008-08-15 21:47:52  amon
 # Misc documentation and format changes.
 #
